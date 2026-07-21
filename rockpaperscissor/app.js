@@ -26,8 +26,8 @@ const showWinner = (userWin,userChoice,compChoice) => {
 }
 
 const drawGame = (userChoice) => {
-    msg.computedStyleMap.backgroundColor = "#081b31";
-    msg.innerText = `Game was Drawn! ${userChoice} draws ${compChoice}`;
+    msg.style.backgroundColor = "#081b31";
+    msg.innerText = `Game was Drawn! ${userChoice} draws ${userChoice}`;
 }
 
 const playGame = (userChoice) => {
